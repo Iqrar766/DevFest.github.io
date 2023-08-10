@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    color: #ec7309;
+}
+/* <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Title-Navbar-Head-section<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< ----> */
+#title{
+    background-image: linear-gradient(to right, rgba(92, 9, 216, 0.768),rgba(222, 76, 88, 0.467) ), url("img.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    display: inline-block;
+}
+#logo a{
+    text-decoration: none;
+}
+.span{
+    color: #39B5E0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+#nav{
+    margin-top: 90px;
+    position: relative;
+    left: 27%;
+}
+#nav li{
+    float: left;
+    padding: 20px;
+}
+#nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#nav ul{
+    list-style-type: none;   
+}
+.login{
+    background-color: rgba(51, 166, 192, 0.286);
+    border-radius: 10px;
+    text-align: center;
+    margin: 200px 500px 200px 500px;
+    padding: 100px 0px;
+}
+form input{
+    padding: 10px;
+    margin-bottom: 40px ;
+    width: 250px;
+    line-height: 20px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+::placeholder{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+.btn_login{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+form a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.timer{
+    position: relative;
+    left: 55%;
+    width: 500px;
+}
+.timer h1{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 230px;
+    margin-left: 140px;
+    padding-bottom: 60px;
+}
+#demo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 23px;
+    border-radius: 45px;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #f9f9f9;
+}
+.IEEE p{
+    color: #fff;
+}
+.IEEE{
+    position: relative;
+    bottom: 150px;
+    display: inline-block;
+    margin-left: 80px;
+}
+.IEEE h1{
+    font-size: 3.5rem;
+    display: inline-block;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 4rem;
+}
+.IEEE a{
+    color: #39B5E0;
+    font-weight: bold;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Overview Section <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#overview{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding: 100px;
+    position: relative;
+    background-color: #fff;
+} 
+#overview h2{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+#overview p{
+    color: #73777B;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+}
+.p2{
+    margin-top: 200px;
+    width: 70%;
+    text-align: center;
+}
+
+.img2{
+    position: static;
+    margin-left: 220px;
+
+}
+.img1{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 70px;
+    background-color: transparent;
+    transform: rotate(40deg);
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Section-Speakers<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#speaker{
+    background-color: #8f8f8f4a;
+    align-items: center;
+}
+.speaker-h1{
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-log{
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.card img{ 
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Vanue Section<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<, */
+
+#venue{
+    margin-bottom: 200px;
+}
+
+#venue img{
+    width: 40%;
+    border-radius: 10%;
+    margin-left: 150px;
+
+}
+#venue h2{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 100px;
+    padding-right: 250px;
+
+}
+#venue p{
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Section Organizers<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+#organizer{
+    background-color: #8f8f8f4a;
+    margin-bottom: 200px;
+
+}
+#organizer h1{
+    font-size: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.rounded-circle1{
+    width: 35%;
+    border-radius: 100%;
+
+}
+.secretary{
+    font-size: 1rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer Section<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 15% 20%;
+}
+.span-space{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.social{
+    padding-bottom: 5%;
+
+}
+.f-brand{
+    color: black;
+}
+.my-acc{
+    text-decoration: none;
+}
+@media (max-width:992px) {
+    #speaker .card{
+        margin-left: 25%;
+    }
+}
+@media (max-width:712px) {
+
+    .img2{
+        margin-left: 0;
+    }
+    .img1{
+        margin-left: 26px;
+    }
+}
+@media (max-width:1466px) {
+    #nav{
+       left: 20%; 
+    }
+}
+@media (max-width:1350px) {
+    #nav{
+       left: 19%; 
+    }
+}
+@media (max-width:1270px) {
+    #nav{
+       left: 9%; 
+    }
+}
+@media (max-width:1110px) {
+    #nav{
+        width: 73%;
+        left: 6%;
+    }
+    
+}
+@media (max-width:1092px) {
+    #nav{
+       left: 4%; 
+    }
+}
+@media (max-width:992px) {
+    #nav{
+       left: 60%; 
+       width: 7%;
+    }
+}
+
+
+@media (max-width: 1133px) {
+    .timer{
+        position: relative;
+        left: 6%;
+        text-align: center;
+    }
+}
+@media (max-width: 1133px) {
+    .IEEE{
+        position: relative;
+        bottom: 8px;
+        display: inline-block;
+        margin-left: 80px;
+        left: 8px;
+        text-align: center;
+    }
+}
